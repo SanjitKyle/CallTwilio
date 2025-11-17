@@ -1,11 +1,11 @@
-import { twiml } from "twilio";
+import  twiml  from "twilio";
 
 export const voice = async (req, res) => {
   try {
     const response = new twiml.VoiceResponse();
 
     const gather = response.gather({
-      action: "/response",
+      action: "/gather",
       method: "POST",
       numDigits: 1,
     });
