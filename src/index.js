@@ -1,5 +1,5 @@
 import express from 'express'
-import { GatherResponse, voice } from './controller/GatheRoute';
+import { GatherResponse, voice } from './controller/GatheRoute.js';
 
 const App=express();
 

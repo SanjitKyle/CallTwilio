@@ -1,4 +1,4 @@
-import { twiml } from "twilio";
+import twiml  from "twilio";
 
 
 export const voice=async(req,res)=>{
