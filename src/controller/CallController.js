@@ -12,7 +12,7 @@ export  const createCall=async()=> {
     const call = await client.calls.create({
       from: "+12058501038", 
       to: "+918392056130", 
-      url: "https://calltwilio-1-egp2.onrender.com/voice", 
+      url: "https://calltwilio-2.onrender.com/voice", 
     });
  
     console.log("Call SID:", call.sid);
